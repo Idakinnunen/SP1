@@ -1,0 +1,294 @@
+.navbar {
+    font-family: consolas; /* Set font family for the navbar */
+}
+
+
+.navbar-nav .nav-link {
+    background-color: #0e8ea8; /* Set background color for navbar menu items */
+    color: #fff; /* Set font color for navbar menu items */
+}
+
+/* Navbar sub-menu item styling */
+.navbar-nav .dropdown-menu {
+    background-color: #83d1e1; /* Set background color for navbar sub-menu items */
+    color: #212529; /* Set font color for navbar sub-menu items */
+}
+
+/* Navbar brand styling */
+.navbar .navbar-brand {
+    background-color: #0e8ea8;
+    color: white;
+    font-size: smaller;
+    height: 25px;
+    width: 75px;
+    text-align: center;
+    padding: 1px 2px;
+}
+
+/* Dropdown item styling */
+.dropdown-item {
+    font-family: consolas; /* Set font family for dropdown items */
+}
+
+/* Table header styling */
+.table-bordered thead th {
+    font-family: consolas; /* Set font family for the table header */
+    background-color: #0e8ea8; /* Set background color for the table header */
+    color: #fff; /* Set text color for the table header */
+}
+
+/* Table row styling */
+.table-bordered tbody tr {
+    font-family: calibri; /* Set font family for the table rows */
+    background-color: #83d1e1; /* Set background color for the table rows */
+    color: #212529; /* Set text color for the table rows */
+}
+
+/* Table cell styling */
+.table-bordered tbody td {
+    font-family: calibri; /* Set font family for the table cells */
+    background-color: #83d1e1; /* Set background color for the table cells */
+    color: #212529; /* Set text color for the table cells */
+}
+
+/* Button hover effect */
+.btn:hover {
+    transition: all 0.3s ease; /* Smooth transition for button hover effect */
+    transform: scale(1.1); /* Scale up the button slightly on hover */
+}
+
+.navbar-nav .dropdown-menu1,
+.navbar-nav .dropdown-menu2 {
+    display: none;
+    position: absolute;
+    background-color: #83d1e1;
+    color: #212529;
+}
+
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu1,
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu2 {
+    display: block;
+}
+
+.dropdown-menu1,
+.dropdown-menu2 {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#vehicleDropdown {
+    background-color: white;
+    color:#212529;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: 0.25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.dropdown-item:hover {
+    background-color: #0e8ea8;
+    color: white;
+}
+
+.navbar .navbar-brand {
+    background-color: #0e8ea8;
+    color: white !important;
+    font-size: smaller;
+    height: 25px;
+    width: 75px;
+    text-align: center;
+    padding: 1px 2px;
+}
+
+#navbarDropdown1,
+#navbarDropdown2 {
+    background-color: #0e8ea8;
+    color: white;
+    font-size: smaller;
+    height: 25px;
+    width: 75px;
+    text-align: center;
+    padding: 2px 4px;
+}
+
+.dropdown-menu1,
+.dropdown-menu2 {
+    background-color: #83d1e1;
+    color: #212529;
+}
+
+#outbutton,
+#clearbutton {
+    font-family: consolas;
+    background-color: #dc3545;
+    color: #fff;
+    width: 15%;
+    margin-right: -137px;
+    margin-left: auto;
+    padding: 0.25rem 1.5rem; /* Added padding */
+}
+
+#inbutton,
+#addbutton {
+    font-family: consolas;
+    color: #fff;
+    width: 15%;
+    margin-right: -137px;
+    margin-left: auto;
+    padding: 0.25rem 1.5rem; /* Added padding */
+}
+
+.main-section {
+    border: 1px solid #212529;
+    border-radius: 5px;
+    margin: 30px;
+}
+
+.header img {
+    width: 200px;
+    height: 200px;
+    padding-bottom: 1px;
+    margin-right: 5px;
+}
+
+.content {
+    text-align: center;
+    margin-left: 70px;
+    margin-top: -125px;
+    padding-bottom: 55px;
+}
+
+.header1 {
+    text-align: center;
+    margin: 0 auto;
+    align-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 60%;
+}
+
+#DeliveryTable {
+    text-align: center;
+    align-content: center;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.col.text-center h2 {
+    text-align: center;
+    width: 60%;
+    margin: 30px auto 0;
+    padding-inline-start: 5px;
+}
+
+thead {
+    text-align: center;
+    margin-top: 50px;
+    font-family: consolas;
+    background-color: #0e8ea8;
+    color: #fff;
+}
+
+#personalTable {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #83d1e1;
+    width: 80%;
+    margin: 50px auto 0;
+    padding-inline-start: 5px;
+    padding-top: 25px;
+}
+
+#telephoneInput {
+    text-align: center;
+}
+
+#time {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #fff;
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+    width: auto;
+    z-index: 1000;
+}
+
+#liveToast {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+}
+
+.toast.show {
+    opacity: 1;
+    visibility: visible;
+    transform: none;
+}
+
+#outbutton {
+    left: auto;
+    position: relative;
+    width: 15%;
+    right: -137px;
+}
+
+#inbutton {
+    right: auto;
+    left: -275px;
+    width: 15%;
+    position: relative;
+}
+
+#AddButton {
+    right: auto;
+    width: 9%;
+    position: relative;
+    bottom: 18px;
+}
+
+#ClearButton {
+    right: auto;
+    width: 8%;
+    left: -30px;
+    position: relative;
+}
+
+.schedule-delivery {
+    padding-top: 20px;
+    padding: 90px;
+    margin: 50px;
+}
+
+.delivery-board {
+    padding-bottom: 40px;
+    padding: 75px;
+    margin: 40px;
+}
+
+/* Apply styles to the table header */
+#DeliveryInputTable thead th {
+    font-family: consolas; /* Set font family for the header */
+    background-color: #0e8ea8; /* Set background color for the header */
+    color: #fff; /* Set text color for the header */
+}
+
+/* Apply styles to the table body */
+#DeliveryInputTable tbody td {
+    font-family: calibri; /* Set font family for the table rows */
+    background-color: #83d1e1; /* Set background color for the table rows */
+    color: #212529; /* Set text color for the table rows */
+}
